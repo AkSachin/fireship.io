@@ -28,7 +28,7 @@
 							<div class="p-1 my-1 flex items-center">
 
 
-								<complete-icon free="{{ .Params.free }}" route="{{ .RelPermalink }}"></complete-icon>
+								<complete-icon free="free" route="{{ .RelPermalink }}"></complete-icon>
 
 
 								<span class="mr-auto text-lg pr-2">
@@ -63,7 +63,7 @@
 		<article class="prose dark:prose-invert pt-1 mx-auto px-3 md:px-8 min-w-0 max-w-none w-full">
 
 		{{ if or .Params.vimeo .Params.youtube }}
-				<video-player free="{{ .Params.free }}"></video-player>
+				<video-player free="free"></video-player>
 		{{ end }}
 
 		<nav class="flex items-center py-6 px-4 bg-black bg-opacity-20 shadow-lg mb-6">
@@ -87,7 +87,7 @@
 
 			<div class="ml-auto w-16 px-4 text-center">
 
-					<mark-complete slot="granted" quiz="{{ .Params.quiz }}" free="{{ .Params.free }}"></mark-complete>
+					<mark-complete slot="granted" quiz="{{ .Params.quiz }}" free="free"></mark-complete>
 			</div>
 		</nav>
 

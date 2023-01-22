@@ -5,7 +5,7 @@
   import { markComplete, markIncomplete } from '../../util/firebase';
   export let route = window.location.pathname;
   export let quiz = false;
-  export let free = false;
+  export let free = true;
 
   async function mark(isComplete: boolean) {
     if (isComplete) {

@@ -8,7 +8,7 @@
 
   export let video: number | string;
   export let type: 'vimeo' | 'youtube';
-  export let free = false;
+  export let free = true;
   export let single = false; // prevent autoplay on signle video pages
 
   // let player: Player;

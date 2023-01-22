@@ -2,7 +2,7 @@
 
 <script lang="ts">
   import { canAccess } from '../../stores/user';
-  export let free = false;
+  export let free = true;
 </script>
 
 {#if free || $canAccess}
